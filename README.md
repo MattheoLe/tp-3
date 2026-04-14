@@ -179,7 +179,3 @@ Clear le cache du navigateur (Ctrl+Shift+Del sur mostnavigateurs).
 - **Vite** 4.3.0
 - **json-server** 0.17.3
 - **JavaScript ES6+**
-
-## Licence
-
-MIT
