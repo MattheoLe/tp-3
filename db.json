@@ -1,0 +1,243 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@store.com",
+      "password": "admin123",
+      "name": "Administrateur"
+    },
+    {
+      "id": 2,
+      "email": "manager@store.com",
+      "password": "manager123",
+      "name": "Gestionnaire"
+    },
+    {
+      "id": 4,
+      "email": "mike.wilson@store.com",
+      "password": "mike2024",
+      "name": "Mike Wilson"
+    }
+  ],
+  "products": [
+    {
+      "name": "Ordinateur Portable",
+      "price": 899.99,
+      "description": "Ordinateur portable haute performance 16 Go RAM",
+      "quantity": 10,
+      "id": 1
+    },
+    {
+      "name": "Clavier Mécanique",
+      "price": 129.99,
+      "description": "Clavier mécanique avec rétroéclairage RGB",
+      "quantity": 20,
+      "id": 2
+    },
+    {
+      "name": "Casque Audio",
+      "price": 199.99,
+      "description": "Casque sans fil avec réduction active du bruit",
+      "quantity": 15,
+      "id": 3
+    },
+    {
+      "name": "Écran 27 pouces",
+      "price": 349.99,
+      "description": "Écran 4K UHD haute résolution",
+      "quantity": 8,
+      "id": 4
+    },
+    {
+      "name": "Souris Gaming",
+      "price": 79.99,
+      "description": "Souris sans fil à 8 boutons programmables",
+      "quantity": 25,
+      "id": 5
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "firstName": "Jean",
+      "lastName": "Dupont",
+      "email": "jean.dupont@email.com",
+      "status": "completed",
+      "createdAt": "2026-04-14",
+      "items": [
+        {
+          "id": 1,
+          "productId": 1,
+          "quantity": 1,
+          "price": 2499.99
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "firstName": "Marie",
+      "lastName": "Martin",
+      "email": "marie.martin@email.com",
+      "status": "completed",
+      "createdAt": "2026-04-13",
+      "items": [
+        {
+          "id": 1,
+          "productId": 2,
+          "quantity": 1,
+          "price": 1099.99
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "firstName": "Pierre",
+      "lastName": "Dubois",
+      "email": "pierre.d@email.com",
+      "status": "pending",
+      "createdAt": "2026-04-14",
+      "items": [
+        {
+          "id": 1,
+          "productId": 3,
+          "quantity": 1,
+          "price": 1299.99
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "firstName": "Sophie",
+      "lastName": "Lefebvre",
+      "email": "sophie.l@email.com",
+      "status": "cancelled",
+      "createdAt": "2026-04-12",
+      "items": [
+        {
+          "id": 1,
+          "productId": 4,
+          "quantity": 2,
+          "price": 149.99
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "firstName": "Antoine",
+      "lastName": "Moreau",
+      "email": "antoine.moreau@email.com",
+      "status": "completed",
+      "createdAt": "2026-04-11",
+      "items": [
+        {
+          "id": 1,
+          "productId": 5,
+          "quantity": 1,
+          "price": 279.99
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "firstName": "Camille",
+      "lastName": "Rousseau",
+      "email": "camille.rousseau@email.com",
+      "status": "cancelled",
+      "createdAt": "2026-04-14",
+      "items": [
+        {
+          "id": 1,
+          "productId": 1,
+          "quantity": 1,
+          "price": 2499.99
+        },
+        {
+          "id": 2,
+          "productId": 4,
+          "quantity": 1,
+          "price": 149.99
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "firstName": "Louis",
+      "lastName": "Girard",
+      "email": "louis.g@email.com",
+      "status": "completed",
+      "createdAt": "2026-04-10",
+      "items": [
+        {
+          "id": 1,
+          "productId": 2,
+          "quantity": 1,
+          "price": 1099.99
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "firstName": "Émilie",
+      "lastName": "André",
+      "email": "emilie.andre@email.com",
+      "status": "cancelled",
+      "createdAt": "2026-04-09",
+      "items": [
+        {
+          "id": 1,
+          "productId": 3,
+          "quantity": 1,
+          "price": 1299.99
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "firstName": "Thomas",
+      "lastName": "Bonnet",
+      "email": "thomas.b@email.com",
+      "status": "completed",
+      "createdAt": "2026-04-08",
+      "items": [
+        {
+          "id": 1,
+          "productId": 5,
+          "quantity": 1,
+          "price": 279.99
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "firstName": "Julie",
+      "lastName": "Michel",
+      "email": "julie.michel@email.com",
+      "status": "processing",
+      "createdAt": "2026-04-14",
+      "items": [
+        {
+          "id": 1,
+          "productId": 4,
+          "quantity": 1,
+          "price": 149.99
+        }
+      ]
+    },
+    {
+      "firstName": "Matthéo",
+      "lastName": "Lecarpentier",
+      "email": "apple.pokemon77@gmail.com",
+      "status": "pending",
+      "createdAt": "2026-04-14",
+      "items": [
+        {
+          "id": 1,
+          "productId": 1,
+          "quantity": 1,
+          "price": 899.99
+        }
+      ],
+      "id": 11
+    }
+  ]
+}
